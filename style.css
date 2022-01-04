@@ -6,8 +6,7 @@ body{
 #h1{
     font-size: 60px;
     line-height: 70px;
-
-
+    font-family: 'Roboto Slab', serif;
 }
 .hero-section{
     width: 100%;
@@ -29,7 +28,7 @@ body{
     color: orange;
 }
 .border-left{
-    border-left: 3px solid orange;
+    border-left: 3px solid rgb(255, 87, 87);
 } 
 .border-left h1{
     margin-left: 8px;
@@ -45,12 +44,12 @@ body{
 .btn{
     color: white;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(255, 87, 87);
     padding: 8px 25px;
     border-radius:5px;
 }
 .para{
-    color:rgb(255, 169, 169);
+    color:rgb(83, 83, 83);
     font-size: 18px;
     line-height: 30px;
     font-family: 'poppins', sans-serif;
@@ -61,20 +60,22 @@ body{
     display: flex;
 }
 .sec-2{
-    width:;
     align-items: center;
-    justify-content:;
     margin: 5% 10%;
     margin-bottom: 150px;  
 }
 #my-mission{
+    color:rgb(47, 47, 47);
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 .box-style{
     background-color: gray;
     padding:30px ;
     border-radius: 30px;
+}
+.box-style h3{
+    font-size:25px ;
 }
 .box-style p{
     font-family: 'poppins', sans-serif;
@@ -98,10 +99,16 @@ body{
 }
 
 .sec-3{
-    
+    background-size: 100px;
     align-items: center;
     margin: 5% 10%;
     margin-bottom: 150px;  
+}
+.bg-img{
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 260px;
 }
 
 .sec-3 img{
@@ -113,9 +120,15 @@ body{
 .sec-width-2{
     width: 60%;
 }
+
 .sec-width-2 h1{
-    color:red;
-    font-size: 40px;
+    color:rgb(47, 47, 47);
+    font-size: 30px;
+    line-height: 40px;
+}
+.sec-width-3 h1{
+    color:rgb(47, 47, 47);
+    font-size: 30px;
     line-height: 40px;
 }
 /*Section 04 */
