@@ -9,11 +9,11 @@ h1{
 
 
 }
-.container{
+.hero-section{
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-bottom: 150px;
     
 }
 
@@ -48,6 +48,77 @@ h1{
     background-color: red;
     padding: 8px 25px;
     border-radius:5px;
+}
+.para{
+    color:rgb(255, 169, 169);
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'poppins', sans-serif;
+    margin-top: 30px;
 
 }
+.flex{
+    display: flex;
+}
+.sec-2{
+    width:;
+    align-items: center;
+    justify-content:;
+    margin: 5% 10%;
+    margin-bottom: 150px;  
+}
+#my-mission{
+    text-align: center;
+    font-size: 40px;
+}
+.box-style{
+    width:;
+    background-color: gray;
+    margin-right:%;
+    padding:30px ;
+    border-radius: 30px;
+}
+.box-style p{
+    font-family: 'poppins', sans-serif;
+
+}
+#margin{
+    margin: 0px 20px;
+}
+.box-style img{
+    width:50%;
+}
+.box-color-1{
+    background-color:rgb(252, 230, 230);
+}
+.box-color-2{
+    background-color:rgb(255, 214, 214);
+
+}
+.box-color-3{
+    background-color:rgb(202, 178, 178);
+}
+
+.sec-3{
+    
+    align-items: center;
+    margin: 5% 10%;
+    margin-bottom: 150px;  
+}
+
+.sec-3 img{
+    width:90%;
+}
+.sec-width-1{
+    width: 40%;
+}
+.sec-width-2{
+    width: 60%;
+}
+.sec-width-2 h1{
+    color:red;
+    font-size: 40px;
+    line-height: 40px;
+}
+
 
